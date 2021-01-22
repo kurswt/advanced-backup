@@ -1,0 +1,15 @@
+{
+    "DEFAULTS": {
+        "SERVER_ID": "",
+        "DATABASE_NAME": "",
+        "MAIN_TOKEN": "",
+        "STATUS": "",
+        "AUTHOR": "",
+        "SAFE_BOTS": [],
+        "SAFE_USERS": [],
+        "VOICE_CHANNEL": "",
+        "PREFIX": "!",
+        "OWNER_ROLE": "",
+        "LOG_CHANNEL": ""
+    }
+}
