@@ -24,8 +24,7 @@ module.exports = {
                 Id: channel.id,
                 Type: channel.type,
                 Permissions: channel.permissionOverwrites.array().map(perms => this.changePermissions(perms)),
-                Parent: channel.parent ? channel.parentID : null,
-                Webhooks: channel.type === "text" ? (await channel.fetchWebhooks()).array().map(webhook => replaceWH(webhook)) : null
+                Parent: channel.parent ? channel.parentID : null
             }).save();
         });
     },
